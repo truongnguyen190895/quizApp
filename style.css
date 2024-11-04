@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 * {
   box-sizing: border-box;
 }
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   margin: 0;
   display: flex;
   align-items: center;
@@ -51,9 +51,11 @@ ul label {
 button {
   cursor: pointer;
   margin: 20px;
+  padding: 5px 25px;
   font-family: inherit;
   font-size: 20px;
-  width: 120px;
   border-radius: 5px;
   border: none;
+  background-color: #1e293b;
+  color: #e2e8f0;
 }
